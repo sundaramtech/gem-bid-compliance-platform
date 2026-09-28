@@ -1,0 +1,33 @@
+TECHNICAL BID SUBMISSION - GOVERNMENT e-MARKETPLACE (GeM)
+Tender Reference: GEM/2026/B/984210
+Bidder Name: Apex Tech Systems Pvt Ltd
+GSTIN: 07AAAAA0000A1Z5 | Corporate Identification: U72200DL2018PTC123456
+--------------------------------------------------------------------------------
+1. FINANCIAL TURNOVER CERTIFICATE
+This is to certify that M/s Apex Tech Systems Pvt Ltd has achieved the following
+Annual Financial Turnover in the past 3 financial years as audited by Chartered Accountants:
+ - FY 2022-23: INR 135.00 Lakhs
+ - FY 2023-24: INR 148.50 Lakhs
+ - FY 2024-25: INR 153.00 Lakhs
+Average Annual Financial Turnover: INR 145.50 Lakhs (Rupees One Crore Forty Five Lakhs).
+--------------------------------------------------------------------------------
+2. PAST EXPERIENCE & TECHNICAL CAPABILITY
+Apex Tech Systems has over 5 years of experience in supplying enterprise workstations
+and AI server compute infrastructure to PSUs and Govt organizations (DRDO, ISRO, BEL).
+--------------------------------------------------------------------------------
+3. MAKE IN INDIA (MII) LOCAL CONTENT DECLARATION
+We hereby declare and affirm that the local content in the offered products is 62.0%
+manufactured at our Noida Assembly Facility, meeting Class-I Local Supplier criteria.
+--------------------------------------------------------------------------------
+4. QUALITY CERTIFICATIONS ATTACHED
+ - ISO 9001:2015 Quality Management Certificate Registration No: IND-89412 (Valid till Nov 2027)
+ - ISO 27001:2022 Information Security Certificate Registration No: IS-99120 (Valid till Dec 2028)
+ - Official OEM Authorization Certificate from Intel Corp attached.
+--------------------------------------------------------------------------------
+5. EMD EXEMPTION DECLARATION
+Claiming EMD Exemption under MSME Policy. Attached valid Udyam Registration Certificate:
+Udyam Reg No: UDYAM-DL-03-0012345
+--------------------------------------------------------------------------------
+6. UNDERTAKING FOR NON-BLACK LISTING
+We solemnly affirm on Non-Judicial Stamp paper that Apex Tech Systems has never been blacklisted
+or debarred by any Central/State Govt Department, Autonomous Body, or Public Sector Undertaking.

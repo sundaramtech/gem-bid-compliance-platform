@@ -1,0 +1,21 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local settings and runtime data
+.env
+.env.*
+!.env.example
+gem_compliance.db
+*.db-journal
+uploads/*
+!uploads/.gitkeep
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
