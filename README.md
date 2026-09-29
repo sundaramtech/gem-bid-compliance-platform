@@ -33,22 +33,27 @@ In public procurement on GeM, evaluating technical bids manually takes weeks:
 ### Prerequisites
 - Python 3.10+ installed on your system.
 
-### 1. Setup Project Directory & Environment
-```bash
-# Navigate to project directory
-cd gem_bid_compliance_platform
+### Run on Windows (Command Prompt)
 
-# Install dependencies
-python -m venv .venv
-# Activate: Windows .venv\Scripts\activate  |  macOS/Linux source .venv/bin/activate
+GitHub stores the project files; it does not run this Flask app. Download and extract the repository ZIP, open **Command Prompt** inside the extracted folder containing `app.py`, and run:
+
+```bat
+py -m venv .venv
+.venv\Scripts\activate.bat
 python -m pip install -r requirements.txt
-```
-
-### 2. Run Application
-```bash
 python app.py
 ```
-The server will start at: `http://127.0.0.1:5000`
+
+Keep that Command Prompt window open. Once it displays `Running on http://127.0.0.1:5000`, open `http://127.0.0.1:5000` on the **same computer**. If `py` is not recognized, install Python and enable **Add Python to PATH**, or try `python` instead of `py` in the first command. If port 5000 is busy, close the other process using it before retrying. Press Ctrl+C in Command Prompt to stop the server.
+
+### Run on macOS/Linux
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python app.py
+```
 
 The local demo seeds two accounts: `admin` / `admin123` and `vendor` / `vendor123`. Set `FLASK_SECRET_KEY` to a long random value to keep browser sessions across restarts. These demo accounts and API routes are **not suitable for public deployment**; add server-side authorization, secure user setup, and deployment hardening first. Keep real procurement and vendor documents out of this prototype. The application does not perform OCR on scanned PDFs; upload selectable-text PDFs or TXT files.
 
@@ -88,4 +93,3 @@ The local demo seeds two accounts: `admin` / `admin123` and `vendor` / `vendor12
 6. **Audit History & Report Export**:
    - View all evaluated bids in the **Audit History** tab.
    - Click **"Print / PDF Report"** to generate a printable compliance verification certificate.
-
